@@ -8,6 +8,7 @@ const db = mysql.createConnection({
   database: 'BD_BIBLIOTECA'
 });
 
+
 db.connect((err) => {
   if (err) {
     console.error('Error al conectar a la base de datos: ' + err.message);
